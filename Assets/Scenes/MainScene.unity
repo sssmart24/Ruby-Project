@@ -418,6 +418,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 653618200520963072, guid: 2f57d124227ba43b7ae45efbcd11e4ed, type: 3}
   m_PrefabInstance: {fileID: 653618200619423397}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &284045101 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5357094931299311613, guid: 8d6f74e2cb3d34ef4acd00f615288542, type: 3}
+  m_PrefabInstance: {fileID: 5357094930854209563}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &284045108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284045101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18e3030fdd2740c3b8ce65fcb72f19c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &357236513
 GameObject:
   m_ObjectHideFlags: 0
@@ -17870,6 +17887,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1173915054 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3446187154995717272, guid: 9533ce63054d045a69d4a90fa025820a, type: 3}
+  m_PrefabInstance: {fileID: 1655496258503247271}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1173915058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173915054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18e3030fdd2740c3b8ce65fcb72f19c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1242761206
 GameObject:
   m_ObjectHideFlags: 0
@@ -19288,12 +19322,16 @@ PrefabInstance:
       value: -0.08226085
       objectReference: {fileID: 0}
     - target: {fileID: -7275938801380674959, guid: 9533ce63054d045a69d4a90fa025820a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7275938801380674959, guid: 9533ce63054d045a69d4a90fa025820a, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -7275938801380674959, guid: 9533ce63054d045a69d4a90fa025820a, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 4.7026453
+      value: 3.2036228
       objectReference: {fileID: 0}
     - target: {fileID: -7275938801380674959, guid: 9533ce63054d045a69d4a90fa025820a, type: 3}
       propertyPath: m_SpriteTilingProperty.adaptiveTiling
@@ -19671,6 +19709,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5357094931299311601, guid: 8d6f74e2cb3d34ef4acd00f615288542, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357094931299311603, guid: 8d6f74e2cb3d34ef4acd00f615288542, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0245488
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357094931299311603, guid: 8d6f74e2cb3d34ef4acd00f615288542, type: 3}
+      propertyPath: m_Size.y
+      value: 2.139483
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357094931299311603, guid: 8d6f74e2cb3d34ef4acd00f615288542, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.06652713
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357094931299311603, guid: 8d6f74e2cb3d34ef4acd00f615288542, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.003074944
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357094931299311603, guid: 8d6f74e2cb3d34ef4acd00f615288542, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5357094931299311613, guid: 8d6f74e2cb3d34ef4acd00f615288542, type: 3}
