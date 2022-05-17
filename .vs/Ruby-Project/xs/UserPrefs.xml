@@ -1,16 +1,27 @@
 ﻿<Properties StartupConfiguration="{B56C190A-9084-89F4-FD2A-1EF7547D6B5D}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/RubyController.cs" Line="116" Column="6" />
+      <File FileName="Assets/Scripts/HealthCollectible.cs" Line="20" Column="53" />
+      <File FileName="Assets/Scripts/EnemyController.cs" Line="13" Column="26" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Ruby-Project" expanded="True" selected="True" />
+          <Node name="Ruby-Project" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="EnemyController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d85eeb7c-58ae-4bf0-bc39-7681f68b574d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="da82cc78-3d3f-43e5-a1ce-7eec09b829e9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
