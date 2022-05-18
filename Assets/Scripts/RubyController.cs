@@ -26,6 +26,9 @@ public class RubyController : MonoBehaviour
 
     AudioSource audioSource;
 
+    public AudioClip throwCog;
+    public AudioClip playerHit;
+
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
@@ -35,10 +38,6 @@ public class RubyController : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    public void PlaySound(AudioClip clip)
-    {
-        audioSource.PlayOneShot(clip);
-    }
 
 
     // Update is called once per frame
@@ -107,7 +106,8 @@ public class RubyController : MonoBehaviour
         
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
-    }
+        PlaySound(playerHit);
+}
     
     void Launch()
     {
@@ -115,7 +115,12 @@ public class RubyController : MonoBehaviour
 
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 300);
+        audioSource.PlayOneShot(throwCog);
 
-        
+    }
+
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 }
