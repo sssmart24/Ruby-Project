@@ -1221,4 +1221,4 @@ ScriptsOnlyBuild:
   platform: 2
   scenePathNames:
   - Assets/Scenes/MainScene.unity
-  playerPath: /Users/game12/Documents/GitHub/Ruby-Project/Build/Ruby Final.app
+  playerPath: /Users/game12/Documents/GitHub/Ruby-Project/Build/Ruby Final 1.app
