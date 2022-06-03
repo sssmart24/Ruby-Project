@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{B56C190A-9084-89F4-FD2A-1EF7547D6B5D}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RubyController.cs">
     <Files>
-      <File FileName="Assets/Scripts/RubyController.cs" Line="106" Column="10" />
+      <File FileName="Assets/Scripts/RubyController.cs" Line="90" Column="6" />
       <File FileName="Assets/Scripts/HealthCollectible.cs" />
       <File FileName="Assets/Scripts/EnemyController.cs" />
       <File FileName="Assets/Scripts/UIHealthBar.cs" />
